@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SygicAuth",
-            url: "https://repository.sygic.com/repository/maven-sygic-internal/com/sygic/lib/auth/sygicauth-ios/0.0.1-dev.116/sygicauth-ios-0.0.1-dev.116.zip",
-            checksum: "318f3589be65b8a02f8313cad50f9dfb5be38d6bd42b2f276e51e969f03f109a"
+            url: "https://repository.sygic.com/repository/maven-sygic-internal/com/sygic/lib/auth/sygicauth-ios/0.0.1-dev.118/sygicauth-ios-0.0.1-dev.118.zip",
+            checksum: "b661462107526bacf828b90d7cdca1e65275fbf150f4e07e0ea5cbd426c6fd6f"
         )
     ]
 )
