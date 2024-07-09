@@ -11,14 +11,15 @@ let package = Package(
     products: [
         .library(
             name: "SygicAuth",
-            targets: ["SygicAuth"]),
+            targets: ["SygicAuth"]
+        )
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
             name: "SygicAuth",
-            url: "https://repository.sygic.com/repository/maven-sygic-internal/com/sygic/lib/auth/sygicauth-ios/0.0.1-dev.119/sygicauth-ios-0.0.1-dev.119.zip",
-            checksum: "7a0d651dd70287dd1068c1b286dd4a1dd78fac76b486e81bb0e38ee9fc47e072"
+            url: "https://public.repo.sygic.com/repository/maven-sygic-releases/com/sygic/lib/auth/sygicauth-ios/2.0.0/sygicauth-ios-2.0.0.zip",
+            checksum: "d877fb2a26cdf78d8ef444ab89400e5d1f5cea94560b711f6c154b75dd4a921e"
         )
     ]
 )
